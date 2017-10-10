@@ -58,5 +58,9 @@ require "csv"
             return nil
         end
         
+        def delete_all_entries
+            @entries = []
+        end
+        
         
     end
